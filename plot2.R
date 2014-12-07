@@ -25,3 +25,4 @@ png(filename = "plot2.png", width = 480, height = 480)
 plot(x = data$Time, y = data$Global_active_power/500, type = "l", 
      xlab = "", ylab = "Global Active Power (kilowatts)")
 dev.off()
+# The names of the weekdays are in Spanish, but "jue" refers to Thursday, "vie" to Friday and "sáb" to Saturday.
